@@ -1,0 +1,77 @@
+body {
+  background-image: url(Pictures/White-noise.gif);
+  cursor: url(Pictures/cursor.png), pointer;
+  cursor: auto;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  height: 200px;
+}
+
+.welcome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.welcome:hover {
+  content: url(Pictures/welcomehover.png)
+}
+.spotify {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.presave {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.presave:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 155;
+  width: 290 ;
+}
+
+button:hover {
+  cursor: pointer ;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(191, 0, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 1px solid #333333;
+}
+
