@@ -7,6 +7,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 17%;
   height: 200px;
 }
 
@@ -74,3 +75,10 @@ a:hover {
   border: 1px solid #333333;
 }
 
+.mid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    margin-top: 20px;
+}
